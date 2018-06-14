@@ -1,3 +1,5 @@
+vscode 插件开发： https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/
+
 # Zephir for VSCode
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
@@ -13,19 +15,21 @@
 
 ## Features <sup>[↑](#zephir-syntax-support-for-vscode)</sup>
 
-* Highlighting
-  - [x] Basic highlighting
-  - [x] Advanced syntax highlighting for Zephir
+-   Highlighting
 
-* Editing
-  - [x] Completion and snippets
-  - [x] Smart Bracket Matching
-  - [x] Smart indent rules
+    -   [x] Basic highlighting
+    -   [x] Advanced syntax highlighting for Zephir
 
-* Navigation
-  - [x] [Regions Folding](https://code.visualstudio.com/docs/editor/codebasics#_folding) by markers:
-    - `// #region` and `// #endregion`
-    - `// <editor-fold>` and `// </editor-fold>`
+-   Editing
+
+    -   [x] Completion and snippets
+    -   [x] Smart Bracket Matching
+    -   [x] Smart indent rules
+
+-   Navigation
+    -   [x] [Regions Folding](https://code.visualstudio.com/docs/editor/codebasics#_folding) by markers:
+        -   `// #region` and `// #endregion`
+        -   `// <editor-fold>` and `// </editor-fold>`
 
 ## Getting Started <sup>[↑](#zephir-syntax-support-for-vscode)</sup>
 
@@ -35,21 +39,21 @@ You can install this extension through the [Visual Studio Code Marketplace](http
 
 Although syntax highlighting should display well in most themes we recommend and test with the following:
 
-* [Atom One Dark](https://marketplace.visualstudio.com/items?itemName=freebroccolo.theme-atom-one-dark)
-* Dark+ (default theme)
-* [Zephyr](https://marketplace.visualstudio.com/items?itemName=atrX.vscode-zephyr-theme)
-* Monokai (bundled with VSCode)
-* [Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)
+-   [Atom One Dark](https://marketplace.visualstudio.com/items?itemName=freebroccolo.theme-atom-one-dark)
+-   Dark+ (default theme)
+-   [Zephyr](https://marketplace.visualstudio.com/items?itemName=atrX.vscode-zephyr-theme)
+-   Monokai (bundled with VSCode)
+-   [Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)
 
 ## Installation <sup>[↑](#zephir-syntax-support-for-vscode)</sup>
 
 ### Using VSCode Command Pallete <sup>[↑](#zephir-syntax-support-for-vscode)</sup>
 
-Open the *Command Pallete*:
+Open the _Command Pallete_:
 
-* <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> [Linux][linux-kbd] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-* <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> [macOS][macos-kbd] <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-* <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> [Windows][windows-kbd] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+-   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> [Linux][linux-kbd] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+-   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> [macOS][macos-kbd] <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+-   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> [Windows][windows-kbd] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 
 Then type "Install Extensions" and hit <kbd>Enter</kbd>. Finally find "Zephir for VSCode" and hit <kbd>Enter</kbd>.
 
@@ -64,7 +68,7 @@ and install it from the command line:
 code --install-extension zephir-*.*.*.vsix
 ```
 
-or from within VS Code by launching *Quick Open* and running the *Install from VSIX...* command.
+or from within VS Code by launching _Quick Open_ and running the _Install from VSIX..._ command.
 
 Once the extension is installed, reload VSCode.
 
@@ -73,9 +77,9 @@ Once the extension is installed, reload VSCode.
 Change to your `.vscode/extensions` [VSCode extensions directory](https://code.visualstudio.com/docs/extensions/install-extension#_side-loading).
 Depending on your platform it is located in the following folders:
 
-* <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> `$HOME/.vscode/extensions`
-* <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> `$HOME/.vscode/extensions`
-* <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> `%USERPROFILE%\.vscode\extensions`
+-   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> `$HOME/.vscode/extensions`
+-   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> `$HOME/.vscode/extensions`
+-   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> `%USERPROFILE%\.vscode\extensions`
 
 Clone extension repository as `zephir-lang.zephir`:
 
